@@ -31,12 +31,17 @@
     
      mobile menu links ends */
     /* section 1 */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .main-head{
         background-color:rgba(216, 207, 207, 0.3);
         padding: 10px;
         margin: 0px auto;
         display: flex;
-        width: 450px;
+        width: 357px;
         flex-direction: column;
     }
     .links{
@@ -72,12 +77,16 @@
     .img-1{
         width: 300px;
     }
+    .small{
+        width: 200px ;
+        margin-right: 12px;
+    }
     /*Our Clients section 2 */
 .Our-Clients{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 270px;
+    width: 300px;
     margin: 40px auto;
 }
 .icons{
@@ -129,7 +138,7 @@
     padding: 7px;
     margin: 10px auto;
     text-decoration: none;
-    width: 110px;
+    width: 100px;
   
 }
 
@@ -180,7 +189,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    margin: 20px  ;
+    margin: 8px  ;
 
 }
 .section-5 h4{
@@ -191,6 +200,9 @@
     margin: 20px;
     width: 99px;
     text-decoration: none;
+}
+.section-5 img{
+    width: 340px;
 }
 
 
@@ -271,10 +283,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 12px;
+    margin: 5px;
     justify-content: space-between;
-    padding: 10px;   
-    width: 400px;
+    padding: 8px;   
+    width: 350px;
     
 }
 /* last section */
@@ -294,26 +306,28 @@
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    width:350px;
+    width:359px;
 }
 .last-1{
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     padding: 10px ;
-    margin: 10px;
+  
+    margin: 7px;
 
 }
 .last-1 h3{
     margin: 10px;
     padding: 10px;
+   
 }
 
 
 .last-2{
     align-items: center;
     padding: 10px ;
-    margin: 9px;
+    margin: 9px; 
 
 }
 li{
